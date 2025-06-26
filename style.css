@@ -1,0 +1,68 @@
+body {
+        background-color: paleturquoise;
+            display: grid;
+                justify-content: absolute;
+                }
+                h1 {
+                    padding: 2px;
+                        background-color: violet;
+                            text-align: center;
+                                border: 50px white;
+                                }
+                                #list {
+                                    line-height: 1.5px;
+                                    }
+                                    .intro {
+                                        text-align: center;
+                                            font-size: 25px;
+                                                line-height: 5px;
+                                                }
+                                                p {
+                                                    line-height: 18px;
+                                                        text-align: justify;
+                                                        }
+                                                        button {
+                                                            width: 18vh;
+                                                                height: 5vh;
+                                                                    line-height: 20px;
+                                                                        margin-left: 30vh;
+                                                                            margin-top: 30px;
+                                                                                background: violet;
+                                                                                    color: white;
+                                                                                        font-family: courier;
+                                                                                            font-weight: 900;
+                                                                                                font-size: 15px;
+                                                                                                    transition: transform 0.2s ease-out;
+                                                                                                    }
+                                                                                                    button:active {
+                                                                                                        transform: scale(0.95);
+                                                                                                            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+                                                                                                                background-color: pink;
+                                                                                                                }
+                                                                                                                @keyframes button {
+                                                                                                                    0% { transform: scale(1); transform: rotate(90deg); }
+                                                                                                                        50% { transform: scale(1.1); transform: rotate(180deg); }
+                                                                                                                            100% { transform: scale(1); transform: rotate(360deg); }
+                                                                                                                                
+                                                                                                                                }
+                                                                                                                                button {
+                                                                                                                                    animation: button 0.3s ease-out;
+                                                                                                                                    }
+                                                                                                                                    .quote {
+                                                                                                                                        justify-content: center;
+                                                                                                                                            text-align: center;
+                                                                                                                                                font-weight: bold;
+                                                                                                                                                }
+                                                                                                                                                img {
+                                                                                                                                                    margin-left: 110px;
+                                                                                                                                                        margin-top: 25px;
+                                                                                                                                                            width: 150px;
+                                                                                                                                                                height: auto;
+                                                                                                                                                                }
+                                                                                                                                                                ul {
+                                                                                                                                                                    margin-top: -10px;
+                                                                                                                                                                    }
+                                                                                                                                                                    .base {
+                                                                                                                                                                        text-align: justify;
+                                                                                                                                                                        }
+
